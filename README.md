@@ -69,7 +69,7 @@ poetry run python -m relishplus
 
 The system will:
 1. Log into your Relish account
-2. Navigate through the next 6 days
+2. Navigate through the next 6 days (including today)
 3. For each day:
    - Order lunch if not already ordered
    - Order dinner if not already ordered
