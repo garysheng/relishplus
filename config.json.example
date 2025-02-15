@@ -1,0 +1,18 @@
+{
+  "health_preference": "moderately_healthy",
+  "dietary_preferences": {
+    "is_vegetarian": false,
+    "is_vegan": false,
+    "is_gluten_free": true,
+    "is_dairy_free": false,
+    "is_halal": false,
+    "is_kosher": false,
+    "avoid_ingredients": ["peanuts", "shellfish"]
+  },
+  "preferred_cuisines": [
+    "Mediterranean",
+    "Asian",
+    "American"
+  ],
+  "delivery_instructions": "Please leave at front desk"
+} 
