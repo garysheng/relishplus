@@ -1,9 +1,11 @@
 # RelishPlus 🍔
 
-An automated meal ordering system for Relish/ezCater that helps Gauntlet AI students easily order their weekly subsidized meals.
+An automated meal ordering system for Relish/ezCater that helps Gauntlet AI students easily order their weekly subsidized meals. Built with [browser-use](https://github.com/gauntletai/browser-use), a powerful browser automation library that uses GPT-4 for robust web navigation.
 
 ## Features
 
+- Intelligent browser automation powered by browser-use and GPT-4
+- Resilient to website changes and UI updates
 - Automated weekly meal ordering through Relish/ezCater
 - Support for $20 daily meal subsidy (both lunch and dinner)
 - Dietary restriction support (vegetarian, vegan, gluten-free, etc.)
@@ -16,7 +18,7 @@ An automated meal ordering system for Relish/ezCater that helps Gauntlet AI stud
 - Python 3.11 or higher
 - Poetry for dependency management
 - A Relish/ezCater account with Gauntlet AI student access
-- OpenAI API key
+- OpenAI API key (used by browser-use for intelligent navigation)
 
 ## Step-by-Step Setup for Gauntlet Students
 
@@ -58,6 +60,17 @@ An automated meal ordering system for Relish/ezCater that helps Gauntlet AI stud
    RELISH_EMAIL=your_gauntlet_email@gauntletai.com
    RELISH_PASSWORD=your_relish_password
    ```
+
+## How It Works
+
+RelishPlus uses browser-use to intelligently navigate the Relish/ezCater website. Unlike traditional automation tools that rely on brittle selectors or XPaths, browser-use leverages GPT-4 to:
+- Understand and navigate complex web interfaces
+- Adapt to UI changes and different page layouts
+- Make intelligent decisions about meal selection
+- Handle unexpected popups and state changes
+- Retry operations when needed
+
+This makes the automation much more reliable and maintainable than traditional scripting approaches.
 
 ## Usage
 
